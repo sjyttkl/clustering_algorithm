@@ -39,7 +39,7 @@ def read_file_cut():
             os.remove(resName)
         result = io.open(resName, 'w', encoding='utf-8')
         line = source.readline()
-        line = line.rstrip('\n')
+        line = line.strip()
 
         while line != "":
             # line = unicode(line, "utf-8")
@@ -70,8 +70,7 @@ def merge_file():
         fileName = path + str(name) + ".txt"
         source = open(fileName, 'r',encoding="utf-8")
         line = source.readline()
-        line = line.strip('\n')
-        line = line.strip('\r')
+        line = line.strip()
 
         while line != "":
             line = line.replace('\n', ' ')
@@ -80,7 +79,7 @@ def merge_file():
             line = source.readline()
         else:
             print( 'End file: ' + str(num))
-            result.write('\r\n')
+            result.write('\n')
             source.close()
         num = num + 1
 

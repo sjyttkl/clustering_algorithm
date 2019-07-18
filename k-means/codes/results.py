@@ -22,43 +22,40 @@ import codecs
 输入:BH_EntityName.txt Cluster_Result.txt
 输出:ZBH_Cluster_Merge.txt ZBH_Cluster_Result.txt
 '''
-
-source1 = open("../data/BH_EntityName.txt", 'r')
-source2 = open("../data/Cluster_Result.txt", 'r')
-result1 = codecs.open("../data/ZBH_Cluster_Result.txt", 'w', 'utf-8')
+BH_EntityName = open("../data/Tourist_spots_5A_BD.txt", 'r',encoding="utf-8")
+Cluster_Result = open("../data/Cluster_Result.txt", 'r',encoding="utf-8")
+ZBH_Cluster_Result = codecs.open("../data/ZBH_Cluster_Result.txt", 'w', 'utf-8')
 
 #########################################################################
 #                        第一部分 合并实体名称和类簇
 
 lable = []  # 存储408个类标 20个类
 content = []  # 存储408个实体名称
-name = source1.readline()
+name = BH_EntityName.readline()
 # 总是多输出空格 故设置0 1使其输出一致
 num = 1
 while name != "":
     name = name.strip('\r\n')
     if num == 1:
-        res = source2.readline()
+        res = Cluster_Result.readline()
         res = res.strip('\r\n')
-
         value = res.split(' ')
         no = int(value[0]) - 1  # 行号
         va = int(value[1])  # 值
         lable.append(va)
         content.append(name)
-
         print(name, res)
-        result1.write(name + ' ' + res + '\r\n')
+        ZBH_Cluster_Result.write(name + ' ' + res + '\r\n')
         num = 0
     elif num == 0:
         num = 1
-    name = source1.readline()
+    name = BH_EntityName.readline()
 
 else:
     print('OK')
-    source1.close()
-    source2.close()
-    result1.close()
+    BH_EntityName.close()
+    Cluster_Result.close()
+    ZBH_Cluster_Result.close()
 
 # 测试输出 其中实体名称和类标一一对应
 i = 0
@@ -71,7 +68,7 @@ while i < len(lable):
 
 # 定义定长20字符串数组 对应20个类簇
 output = [''] * 20
-result2 = codecs.open("../data/ZBH_Cluster_Merge.txt", 'w', 'utf-8')
+ZBH_Cluster_Merge = codecs.open("../data/ZBH_Cluster_Merge.txt", 'w', 'utf-8')
 
 # 统计类标对应的实体名称
 i = 0
@@ -83,11 +80,11 @@ while i < len(lable):
 i = 0
 while i < 20:
     print('#######')
-    result2.write('#######\r\n')
+    ZBH_Cluster_Merge.write('#######\r\n')
     print('Label: ' + str(i))
-    result2.write('Label: ' + str(i) + '\r\n')
+    ZBH_Cluster_Merge.write('Label: ' + str(i) + '\r\n')
     print(output[i])
-    result2.write(output[i] + '\r\n')
+    ZBH_Cluster_Merge.write(output[i] + '\r\n')
     i = i + 1
 
-result2.close()
+ZBH_Cluster_Merge.close()
