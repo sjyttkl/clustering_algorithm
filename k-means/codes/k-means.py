@@ -41,11 +41,12 @@ if __name__ == "__main__":
     # 该类会统计每个词语的tf-idf权值
     transformer = TfidfTransformer()
     # 第一个fit_transform是计算tf-idf 第二个fit_transform是将文本转为词频矩阵
+    print(vectorizer.fit_transform(corpus))
     tfidf = transformer.fit_transform(vectorizer.fit_transform(corpus))
     # 获取词袋模型中的所有词语
     word = vectorizer.get_feature_names()
     # 将tf-idf矩阵抽取出来，元素w[i][j]表示j词在i类文本中的tf-idf权重
-    weight = tfidf.toarray()
+    weight = tfidf.toarray()# 19*字典长度。每行表示一个文本，每列表示字典，
     resName = "../data/BaiduTfidf_Result.txt"
     result = codecs.open(resName, 'w', 'utf-8')
     for j in range(len(word)):
