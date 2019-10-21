@@ -3,8 +3,8 @@
 """
 ==================================================
    File Name：     lesson02肘部法
-   email:         songdongdong@jd.com
-   Author :       songdongdong
+   email:         695492835@qq.com
+   Author :       sjyttkl
    date：          2019/10/21
    Description :
 ==================================================
