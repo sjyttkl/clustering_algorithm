@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d91377fb-8a51-496b-8af4-458ad7253cf7" name="Default" comment="" />
+    <list default="true" id="d91377fb-8a51-496b-8af4-458ad7253cf7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AP聚类/AP聚类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AP聚类/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AP聚类/pic/ap_clustering1111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AP聚类/pic/bars11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBSCAN/DBSCAN聚类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBSCAN/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LP聚类/LP_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LP聚类/label_propagation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LP聚类/label_propagation_MPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means++/k-means++.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means/data/automobile_data_price/Auto_Data_Features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means/data/automobile_data_price/Auto_Data_Labels.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means/data/automobile_data_price/Automobile price data _Raw_.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means/data/girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means/src/k-means.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means/src/pic_zip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/k-means与DBSCAN聚类算法比较.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/xbost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmeans-kernel/SpecCluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmeans-kernel/kernel_kmeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmeans-kernel/moons.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mean_shift/mean_shift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/聚类专题—Note_20190210190259.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/clustering_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clustering_algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/codes/data_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/src/baidu_data_cluster/data_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/codes/k-means.py" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/src/baidu_data_cluster/k-means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/codes/results.py" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/src/baidu_data_cluster/results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/codes/scrapy_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/src/baidu_data_cluster/scrapy_baidu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/data/BaiduTfidf_Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/data/BaiduTfidf_Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/data/Cluster_Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/data/Cluster_Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/src/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/src/Untitled1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means/src/lesson01.py" beforeDir="false" afterPath="$PROJECT_DIR$/k-means/src/lesson01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-modes/src/modes.py" beforeDir="false" afterPath="$PROJECT_DIR$/k-medoids/src/modes.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,19 +47,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/clustering_algorithm$lesson01.coverage" NAME="lesson01 Coverage Results" MODIFIED="1571108285151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/src" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$modes.coverage" NAME="modes Coverage Results" MODIFIED="1570690924878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-modes/src" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$SpecCluster.coverage" NAME="SpecCluster Coverage Results" MODIFIED="1571740484643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmeans-kernel" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$LP_test.coverage" NAME="LP_test Coverage Results" MODIFIED="1571987464030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LP聚类" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$DBSCAN.coverage" NAME="DBSCAN聚类 Coverage Results" MODIFIED="1572006465980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DBSCAN" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$lesson02.coverage" NAME="lesson02肘部法 Coverage Results" MODIFIED="1571644911277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/src" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$data_helper__2_.coverage" NAME="data_helper (2) Coverage Results" MODIFIED="1563351763026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/codes" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$k_means.coverage" NAME="k-means Coverage Results" MODIFIED="1568169135658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/codes" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$data_helper__1_.coverage" NAME="data_helper (1) Coverage Results" MODIFIED="1563328459475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/codes" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$results.coverage" NAME="results Coverage Results" MODIFIED="1563429945009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/codes" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$pic_zip.coverage" NAME="pic_zip Coverage Results" MODIFIED="1571654523200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/src" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$k_means__.coverage" NAME="k-means++ Coverage Results" MODIFIED="1571731486315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means++" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$AP.coverage" NAME="AP聚类 Coverage Results" MODIFIED="1571998298200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AP聚类" />
     <SUITE FILE_PATH="coverage/clusteringalgorithm$data_helper.coverage" NAME="data_helper Coverage Results" MODIFIED="1563273609253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/codes" />
-    <SUITE FILE_PATH="coverage/clustering_algorithm$data_helper__2_.coverage" NAME="data_helper (2) Coverage Results" MODIFIED="1563351763026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
-    <SUITE FILE_PATH="coverage/clustering_algorithm$k_means.coverage" NAME="k-means Coverage Results" MODIFIED="1563351924530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
-    <SUITE FILE_PATH="coverage/clustering_algorithm$data_helper__1_.coverage" NAME="data_helper (1) Coverage Results" MODIFIED="1563328459475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
-    <SUITE FILE_PATH="coverage/clustering_algorithm$results.coverage" NAME="results Coverage Results" MODIFIED="1563352070132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$label_propagation.coverage" NAME="label_propagation Coverage Results" MODIFIED="1571987148405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LP聚类" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$kernel_kmeans.coverage" NAME="kernel_kmeans Coverage Results" MODIFIED="1571751407529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmeans-kernel" />
+    <SUITE FILE_PATH="coverage/clustering_algorithm$data_helper.coverage" NAME="data_helper Coverage Results" MODIFIED="1563423045431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means/codes" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="stu: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../clustering_algorithm/README.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="DBSCAN聚类.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DBSCAN/DBSCAN聚类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="110">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+              <folding>
+                <element signature="e#583#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="label_propagation_MPI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LP聚类/label_propagation_MPI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -32,9 +130,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stack</find>
+      <find>hstack</find>
+      <find>vstack</find>
+      <find>data</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,16 +152,41 @@
         <option value="$PROJECT_DIR$/k-means/codes/scrapy.py" />
         <option value="$PROJECT_DIR$/k-means/data/Tourist_spots_5A_BD.txt" />
         <option value="$PROJECT_DIR$/k-means/codes/Tourist_spots_5A/BaiduSpider.txt" />
-        <option value="$PROJECT_DIR$/k-means/codes/data_helper.py" />
         <option value="$PROJECT_DIR$/k-means/codes/ghostdriver.log" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/ghostdriver.log" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/k-means/data/dict_baidu.txt" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0020.txt" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/data_helper.py" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/k-means.py" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/results.py" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/scrapy_baidu.py" />
-        <option value="$PROJECT_DIR$/../clustering_algorithm/README.md" />
+        <option value="$PROJECT_DIR$/k-means/codes/ghostdriver.log" />
+        <option value="$PROJECT_DIR$/k-means/data/dict_baidu.txt" />
+        <option value="$PROJECT_DIR$/k-means/data/BaiduSpider/0020.txt" />
+        <option value="$PROJECT_DIR$/k-means/codes/scrapy_baidu.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/k-means/codes/data_helper.py" />
+        <option value="$PROJECT_DIR$/k-means/codes/data_helper.py" />
+        <option value="$PROJECT_DIR$/k-means/data/BaiduSpider_Result.txt" />
+        <option value="$PROJECT_DIR$/k-means/data/Cluster_Result.txt" />
+        <option value="$PROJECT_DIR$/k-means/codes/results.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9a867e36-dd6b-4e05-b363-a7ce48f78bca/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fafb989-ef88-421b-8d63-89e9bffab139/console.sql" />
+        <option value="5fafb989-ef88-421b-8d63-89e9bffab139/schema/test/table/stu.sql" />
+        <option value="$PROJECT_DIR$/k-means/codes/k-means.py" />
+        <option value="$PROJECT_DIR$/k-means/src/lesson02肘部法.py" />
+        <option value="$PROJECT_DIR$/k-means/src/lesson01.py" />
+        <option value="$PROJECT_DIR$/k-modes/src/modes.py" />
+        <option value="$PROJECT_DIR$/mean_shift/mean_shift.py" />
+        <option value="$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/k-means与DBSCAN聚类算法比较.py" />
+        <option value="$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/k-means与DBSCAN聚类算法比较.ipynb" />
+        <option value="$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/xbost.py" />
+        <option value="$PROJECT_DIR$/k-means/src/pic_zip.py" />
+        <option value="$PROJECT_DIR$/k-means/src/k-means.py" />
+        <option value="$PROJECT_DIR$/k-means++/k-means++.py" />
+        <option value="$PROJECT_DIR$/kmeans-kernel/kernel_kmeans.py" />
+        <option value="$PROJECT_DIR$/LP聚类/LP聚类.py" />
+        <option value="$PROJECT_DIR$/LP聚类/LP_test.py" />
+        <option value="$PROJECT_DIR$/LP聚类/label_propagation_MPI.py" />
+        <option value="$PROJECT_DIR$/LP聚类/label_propagation.py" />
+        <option value="$PROJECT_DIR$/kmeans-kernel/SpecCluster.py" />
+        <option value="$PROJECT_DIR$/LP聚类/README.md" />
+        <option value="$PROJECT_DIR$/AP聚类/AP聚类.py" />
+        <option value="$PROJECT_DIR$/DBSCAN/DBSCAN聚类.py" />
       </list>
     </option>
   </component>
@@ -62,16 +197,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="277" />
-    <option name="y" value="-31" />
-    <option name="width" value="1932" />
-    <option name="height" value="1050" />
+    <option name="x" value="-451" />
+    <option name="y" value="-12" />
+    <option name="width" value="1918" />
+    <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,11 +216,25 @@
               <item name="clustering_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="clustering_algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="clustering_algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clustering_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="AP聚类" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering_algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clustering_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="DBSCAN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering_algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clustering_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="LP聚类" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,6 +244,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fasttest_demo" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="" />
@@ -103,7 +256,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files\Python_Workspace\clustering_algorithm\AP聚类" />
+      <recent name="D:\Program Files\Python_Workspace\clustering_algorithm\k-means\data\automobile_data_price" />
+      <recent name="D:\Program Files\Python_Workspace\clustering_algorithm\k-means\codes\baidu_data_cluster" />
       <recent name="D:\Program Files\Python_Workspace\clustering_algorithm\k-means\data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\Python_Workspace\clustering_algorithm\AP聚类\pic" />
+      <recent name="D:\Program Files\Python_Workspace\clustering_algorithm\kmeans-kernel" />
+      <recent name="D:\Program Files\Python_Workspace\clustering_algorithm\k-means\data" />
+      <recent name="D:\Program Files\Python_Workspace\clustering_algorithm" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,8 +280,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.results">
-    <configuration name="data_helper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DBSCAN聚类">
+    <configuration name="AP聚类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="clustering_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,18 +289,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AP聚类" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Program Files\Python_Workspace\clustering_algorithm\k-means\codes\scrapy_baidu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AP聚类/AP聚类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="data_helper (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DBSCAN聚类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="clustering_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,18 +308,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DBSCAN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/data_helper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DBSCAN/DBSCAN聚类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="data_helper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LP_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="clustering_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,18 +327,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/k-means/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LP聚类" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k-means/codes/data_helper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP聚类/LP_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="k-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kernel_kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="clustering_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,18 +346,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kmeans-kernel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/k-means.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans-kernel/kernel_kmeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="label_propagation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="clustering_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,31 +365,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LP聚类" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../clustering_algorithm/k-means/codes/results.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP聚类/label_propagation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.data_helper" />
-      <item itemvalue="Python.data_helper (1)" />
-      <item itemvalue="Python.data_helper (2)" />
-      <item itemvalue="Python.k-means" />
-      <item itemvalue="Python.results" />
+      <item itemvalue="Python.kernel_kmeans" />
+      <item itemvalue="Python.LP_test" />
+      <item itemvalue="Python.label_propagation" />
+      <item itemvalue="Python.AP聚类" />
+      <item itemvalue="Python.DBSCAN聚类" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.results" />
-        <item itemvalue="Python.k-means" />
-        <item itemvalue="Python.data_helper (2)" />
-        <item itemvalue="Python.data_helper (1)" />
-        <item itemvalue="Python.data_helper" />
+        <item itemvalue="Python.DBSCAN聚类" />
+        <item itemvalue="Python.AP聚类" />
+        <item itemvalue="Python.LP_test" />
+        <item itemvalue="Python.label_propagation" />
+        <item itemvalue="Python.kernel_kmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -242,27 +404,76 @@
       <option name="presentableId" value="Default" />
       <updated>1563272693835</updated>
     </task>
+    <task id="LOCAL-00001" summary="纯粹为了学习 k-means">
+      <created>1563430034035</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563430034035</updated>
+    </task>
+    <task id="LOCAL-00002" summary="加了个 插件">
+      <created>1568168848046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568168848046</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了下 注释">
+      <created>1568169757788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568169757788</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Kmodes聚类算法">
+      <created>1568170624575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568170624575</updated>
+    </task>
+    <task id="LOCAL-00005" summary="聚类算法">
+      <created>1571646201842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571646201842</updated>
+    </task>
+    <task id="LOCAL-00006" summary="聚类算法">
+      <created>1571646235913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571646235913</updated>
+    </task>
+    <task id="LOCAL-00007" summary="聚类算法">
+      <created>1571646267260</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571646267260</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50140685" side_tool="true" weight="0.31339714" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24590164" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49859312" visible="true" weight="0.19555035" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32994652" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16203208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32994652" />
       <window_info anchor="bottom" id="Archimedes-IDEA" order="7" side_tool="true" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46252927" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.122459896" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.26791444" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946523" weight="0.1498829" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -270,32 +481,34 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="8" sideWeight="0.49893048" visible="true" weight="0.3290398" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Archimedes-IDEA" order="3" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.3290398" />
-      <window_info anchor="right" id="Remote Host" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24919786" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="2" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32994652" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.26791444" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49859312" weight="0.27985948" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Archimedes-IDEA" order="10" side_tool="true" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32994652" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50140685" side_tool="true" weight="0.31339714" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.74545455" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946523" visible="true" weight="0.4063232" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="14" sideWeight="0.49893048" visible="true" weight="0.3290398" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,146 +517,500 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="纯粹为了学习 k-means" />
+    <MESSAGE value="加了个 插件" />
+    <MESSAGE value="修改了下 注释" />
+    <MESSAGE value="Kmodes聚类算法" />
+    <MESSAGE value="聚类算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="聚类算法" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/data_helper.py</url>
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/data_helper.py</url>
           <line>28</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/k-means.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/k-means.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/results.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/results.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/results.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/results.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/k-means.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/k-means.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-medoids/src/modes.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k-means/src/lesson01.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmeans-kernel/kernel_kmeans.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmeans-kernel/kernel_kmeans.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmeans-kernel/kernel_kmeans.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LP聚类/label_propagation.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LP聚类/label_propagation.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LP聚类/LP_test.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LP聚类/label_propagation.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LP聚类/label_propagation.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AP聚类/AP聚类.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AP聚类/AP聚类.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DBSCAN/DBSCAN聚类.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DBSCAN/DBSCAN聚类.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="61" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0009.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0005.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0001.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0004.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/Tourist_spots_5A/BaiduSpider.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/ghostdriver.log">
+    <entry file="file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9569" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="460" column="17" lean-forward="true" selection-start-line="460" selection-start-column="17" selection-end-line="460" selection-end-column="17" />
+        <state relative-caret-position="269">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/Tourist_spots_5A_BD.txt">
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/scipy/spatial/distance.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2462" column="37" selection-start-line="2462" selection-start-column="28" selection-end-line="2462" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/src/lesson01.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <caret selection-end-line="19" selection-end-column="3" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/dict_baidu.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result/0001.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result/0003.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result/0019.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result/0018.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0017.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result/0017.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0013.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0020.txt">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/k-means/src/IntroToUnsupervisedLearning.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider/0015.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result/0020.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result.txt0001.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result.txt0004.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/data/BaiduSpider_Result.txt0007.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/BaiduSpider_Result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384" />
+    <entry file="file://$PROJECT_DIR$/k-means/src/ApplicationOfClustering2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/results.py">
+    <entry file="file://$PROJECT_DIR$/k-means/src/baidu_data_cluster/k-means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="1143">
+          <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="40" />
           <folding>
-            <element signature="e#323#332#0" expanded="true" />
+            <element signature="e#344#353#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/k-means.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+    <entry file="file://$PROJECT_DIR$/k-means/src/ApplicationOfClustering.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/data_helper.py">
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/datasets/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-          <folding>
-            <element signature="e#296#306#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="815" column="42" lean-forward="true" selection-start-line="815" selection-start-column="32" selection-end-line="815" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/k-means/codes/scrapy_baidu.py">
+    <entry file="file://$PROJECT_DIR$/k-means/src/lesson02肘部法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clustering_algorithm/README.md">
+    <entry file="file://$PROJECT_DIR$/mean_shift/mean_shift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="160">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/k-means与DBSCAN聚类算法比较.py" />
+    <entry file="file://$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/xbost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/src/pic_zip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/src/Untitled1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/src/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-952285868/_random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="744" column="16" selection-start-line="744" selection-start-column="16" selection-end-line="744" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means++/k-means++.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-medoids/src/modes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/src/k-means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/src/lesson01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/cluster/k_means_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3930">
+          <caret line="188" column="51" selection-start-line="188" selection-start-column="47" selection-end-line="188" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/cluster/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/numpy/lib/twodim_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="258" column="20" lean-forward="true" selection-start-line="258" selection-start-column="10" selection-end-line="258" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-982">
+          <caret line="1182" column="4" selection-start-line="1182" selection-start-column="4" selection-end-line="1182" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-952285868/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="526" column="4" selection-start-line="526" selection-start-column="4" selection-end-line="526" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means与DBSCAN聚类算法比较/k-means与DBSCAN聚类算法比较.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-952285868/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="1984" column="4" selection-start-line="1984" selection-start-column="4" selection-end-line="1984" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/src/DataPreparation.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/numpy/lib/arraysetops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1417">
+          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1246">
+          <caret line="231" column="41" selection-start-line="231" selection-start-column="41" selection-end-line="231" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/numpy/lib/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1408">
+          <caret line="1154" column="16" selection-start-line="1154" selection-start-column="12" selection-end-line="1154" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-952285868/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-964">
+          <caret line="1041" column="4" selection-start-line="1041" selection-start-column="4" selection-end-line="1041" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kmeans-kernel/kernel_kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2407">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#723#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kmeans-kernel/SpecCluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3680">
+          <caret line="118" column="15" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP聚类/LP_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="78" column="28" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="28" />
+          <folding>
+            <element signature="e#299#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AP聚类/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/cluster/bicluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16818">
+          <folding>
+            <element signature="e#86#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-952285868/itertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="293" column="8" selection-start-line="293" selection-start-column="8" selection-end-line="293" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="2809" column="13" selection-start-line="2809" selection-start-column="9" selection-end-line="2809" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/metrics/cluster/unsupervised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="238" column="4" selection-start-line="238" selection-start-column="4" selection-end-line="238" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/metrics/cluster/supervised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="743" column="38" lean-forward="true" selection-start-line="743" selection-start-column="38" selection-end-line="744" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/cluster/affinity_propagation_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1981">
+          <caret line="235" column="25" selection-start-line="235" selection-start-column="6" selection-end-line="235" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AP聚类/AP聚类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/numpy/lib/_datasource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="623" selection-start-line="623" selection-end-line="623" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="644" column="4" selection-start-line="644" selection-start-column="4" selection-end-line="644" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBSCAN/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP聚类/label_propagation_MPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP聚类/label_propagation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2752">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#353#933#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBSCAN/DBSCAN聚类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="e#583#601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

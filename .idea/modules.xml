@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/clustering——algorithm.iml" filepath="$PROJECT_DIR$/.idea/clustering——algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/clustering_algorithm.iml" filepath="$PROJECT_DIR$/.idea/clustering_algorithm.iml" />
     </modules>
   </component>
 </project>
