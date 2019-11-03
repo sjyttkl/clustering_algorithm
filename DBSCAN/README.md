@@ -12,7 +12,7 @@ DBSCAN算法将数据点分为三类：
 
 如下图所示：图中黄色的点为边界点，因为在半径Eps内，它领域内的点不超过MinPts个，我们这里设置的MinPts为5；而中间白色的点之所以为核心点，是因为它邻域内的点是超过MinPts（5）个点的，它邻域内的点就是那些黄色的点
 
-![1](D:\Program Files\Python_Workspace\clustering_algorithm\DBSCAN\pic\1.png)
+![1](pic\1.png)
 
 ### 2.DBSCAN算法的流程
 
@@ -22,15 +22,15 @@ DBSCAN算法将数据点分为三类：
 		4.每组连通的核心点形成一个簇；
 		5.将每个边界点指派到一个与之关联的核心点的簇中（哪一个核心点的半径范围之内）。
 
-![2](D:\Program Files\Python_Workspace\clustering_algorithm\DBSCAN\pic\2.png)
+![2](pic\2.png)
 
-![3](D:\Program Files\Python_Workspace\clustering_algorithm\DBSCAN\pic\3.png)
+![3](pic\3.png)
 
-![4](D:\Program Files\Python_Workspace\clustering_algorithm\DBSCAN\pic\4.png)
+![4](pic\4.png)
 
-![5](D:\Program Files\Python_Workspace\clustering_algorithm\DBSCAN\pic\5.png)
+![5](pic\5.png)
 
-![6](D:\Program Files\Python_Workspace\clustering_algorithm\DBSCAN\pic\6.png)
+![6](pic\6.png)
 
 ### DBSCAN算法的主要思想是，
 
